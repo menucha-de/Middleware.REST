@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.5.1//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.5.1/distro-source/core/src/gwt-module.dtd">
+<module rename-to="middleware">
+	<inherits name="org.fusesource.restygwt.RestyGWT"/>
+	<inherits name="havis.middleware.ale.service.ALE"/>
+	<source path="lr">
+		<include name="**/LRAsync.java"/>
+	</source>
+	<source path="tm">
+		<include name="**/TMAsync.java"/>
+	</source>
+	<source path="ec">
+		<include name="**/ECAsync.java"/>
+	</source>
+	<source path="cc">
+		<include name="**/CCAsync.java"/>
+	</source>
+	<source path="configuration">
+		<include name="**/ConfigurationAsync.java"/>
+	</source>
+	<source path="model">
+		<include name="**/License.java"/>
+	</source>
+	<source path="pc">
+		<include name="**/PCAsync.java"/>
+	</source>
+	<source path="connector">
+		<include name="**/ConnectorAsync.java"/>
+	</source>
+	<source path="utils">
+		<include name="**/UtilsAsync.java"/>
+		<include name="**/Uri.java"/>
+	</source>
+	<source path="shared">
+		<include name="**/HasSpecs.java"/>
+		<include name="**/HasSubscribers.java"/>
+		<include name="**/HasReports.java"/>
+		<include name="**/HasVersion.java"/>
+		<include name="**/MCCycleServiceAsync.java"/>
+		<include name="**/MCServiceAsync.java"/>
+	</source>
+</module>
